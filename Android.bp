@@ -1,0 +1,29 @@
+android_app {
+    name: "SSUChecker",
+    srcs: ["src/**/*.java"],
+    resource_dirs: ["res"],
+    
+    certificate: "platform",
+    privileged: true,
+    
+    static_libs: [
+        "androidx.preference_preference",
+        "org.lineageos.platform.internal",
+    ],
+    
+    required: [
+        "privapp-permissions-ssuchecker",
+    ],
+    
+    platform_apis: true,
+    system_ext_specific: true,
+    defaults: ["platform_app_defaults"],
+}
+
+prebuilt_etc {
+    name: "privapp-permissions-ssuchecker",
+    sub_dir: "permissions",
+    src: "privapp-permissions-ssuchecker.xml",
+    filename_from_src: true,
+    system_ext_specific: true,
+}

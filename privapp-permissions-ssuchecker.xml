@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="me.dabao1955.ssuchecker">
+        <permission name="android.permission.INSTALL_PACKAGES"/>
+        <permission name="android.permission.DELETE_PACKAGES"/>
+        <permission name="android.permission.CLEAR_APP_CACHE"/>
+        <permission name="android.permission.CLEAR_APP_USER_DATA"/>
+        
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.OBSERVE_GRANT_REVOKE_PERMISSIONS"/>
+        
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+        <permission name="android.permission.SYSTEM_ALERT_WINDOW"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        
+        <permission name="me.dabao1955.ssuchecker.MANAGE_PACKAGE_BLOCKING"/>
+    </privapp-permissions>
+</permissions>
