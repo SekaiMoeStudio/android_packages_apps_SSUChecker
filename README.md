@@ -110,11 +110,9 @@ android_packages_apps_ssuchecker/
 ├── Android.bp                 # Build configuration
 ├── AndroidManifest.xml        # App manifest
 ├── src/                       # Source code
-│   └── org/lineageos/ssuchecker/
+│   └── me/dabao1955/ssuchecker/
 │       ├── PMHookService.java
 │       ├── PMController.java
-│       └── activities/
-├── res/                       # Resources
 └── privapp-permissions-ssuchecker.xml
 ```
 
