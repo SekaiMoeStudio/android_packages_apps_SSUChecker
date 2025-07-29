@@ -1,4 +1,4 @@
-package org.lineageos.pmhook;
+package me.dabao1955.ssuchecker;
 
 import android.content.Context;
 import android.content.SharedPreferences;
