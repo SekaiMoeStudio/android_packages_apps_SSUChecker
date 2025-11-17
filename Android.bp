@@ -1,7 +1,6 @@
 android_app {
     name: "SSUChecker",
     srcs: ["src/**/*.java"],
-    resource_dirs: ["res"],
     
     certificate: "platform",
     privileged: true,
